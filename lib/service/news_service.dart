@@ -6,7 +6,7 @@ class NewsService {
 
   Future<List<News>> fetchTopHeadlines() async {
     String url =
-        "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=fcc932043ab84e1d891cd8714db86e6b";
+        "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=pasteapikeyhere.";
 
     final response = await dio.get(url);
 
